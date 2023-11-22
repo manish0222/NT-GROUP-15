@@ -6,7 +6,7 @@ const app=express();
 const CurrencyController=require('./controllers/currency.js');
 
 app.get('/:currency',CurrencyController.currencyController);
-
+app.get('/maxmin/:currency',CurrencyController.maxminController);
 app.listen(3000,()=>{
     console.log("Running on port 3000");
 })
