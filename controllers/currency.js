@@ -57,14 +57,19 @@ exports.currencyController = async (req, res, next) => {
       const obj=queryResult[i];
       //console.log(obj);
       let arr=[];
+      obj.unix_timestamp *= 1000
       arr.push(obj.unix_timestamp);
       arr.push(obj[para]);
       ans.push(arr);
     }
     console.log(ans);
-    res.send(queryResult);
+    const data = {
+      ans
+    }
+    res.send(data);
   } catch (error) {
     console.error('Error querying MongoDB:', error);
+    res.statusCode(404).send(error)
   } finally {
     // Close the connection
     await client.close();
