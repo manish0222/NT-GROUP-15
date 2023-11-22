@@ -77,3 +77,53 @@ exports.currencyController = async (req, res, next) => {
   }
 };
 
+exports.maxminController=async (req,res,next)=>{
+    try{
+        let para=req.params.currency;
+        console.log(para);
+        // Access the database
+        const database = client.db();
+
+        // Access the collection
+        const collection = database.collection('currency2');
+        const excludedFields = [
+          'unix_timestamp'
+        ];
+        excludedFields.push(para);
+        const pipeline = [
+        // {
+        //   $match: { "Algerian dinar   (DZD)":76.3243 }
+        // },
+        {
+          $project: Object.fromEntries(excludedFields.map(field => [field, 1]))
+        }
+        ];
+        const queryResult = await collection.aggregate(pipeline).toArray();
+        const ans=[];
+        var mn=999999999999999;
+        var mx=-1;
+        for(let i=0;i<queryResult.length;i++){
+          const obj=queryResult[i];
+          //console.log(obj);
+          ans.push(obj[para]);
+        }
+        for(let i=0;i<ans.length;i++){
+            if(mn>ans[i]){
+              mn=ans[i];
+            }
+            if(mx<ans[i]){
+              mx=ans[i];
+            }
+        }
+        const obj={mn,mx};
+        console.log(obj);
+        res.send(obj);
+    }
+    catch(error){
+      console.error('Error querying MongoDB:', error);
+    }
+    finally{
+      await client.close();
+      console.log('Connection closed');
+    }
+}

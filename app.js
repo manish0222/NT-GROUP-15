@@ -20,7 +20,7 @@ app.get('/',  (req, res) => {
 });
 
 app.get('/:currency',CurrencyController.currencyController);
-
+app.get('/maxmin/:currency',CurrencyController.maxminController);
 
 
 app.listen(4000,()=>{
