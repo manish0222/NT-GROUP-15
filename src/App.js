@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import CardSection from './components/CardSection';
+import Header from './components/Header';
+import ChartSection from './components/ChartSection';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  constructor(){
+    super();
+    this.state = {
+      Id: "USD"
+    }
+  }
+
+  fetchData = async () => {
+    let data = await fetch('')
+    let JsonData = await data.json()
+    this.setState({Id:"INR"})
+  }
+
+  componentDidMount(){
+    this.fetchData()
+  }
+
+  render() {
+    return (
+      <div>
+        <Header />
+        <h1>{this.state.Id}</h1>
+        <CardSection currencyName = {this.state.Id}/>
+        <ChartSection />
+      </div>
+    )
+  }
 }
-
-export default App;
