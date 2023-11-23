@@ -8,16 +8,17 @@ Project Vision
 CurrencyTracker Insights aims to offer a comprehensive view of currency fluctuations, providing users with valuable insights into historical trends and patterns. By integrating the MERN stack with Python's Pandas library, we seek to create an interactive and user-friendly platform that not only presents data visually but also enables users to analyze and interpret currency movements over the past decade.
 
 ## Tech Stack Information<br>
--1. MERN Stack Development
-Frontend (React.js).
+1. MERN Stack Development
+ -  Frontend (React.js).
   The frontend, developed using React.js, ensures a responsive and intuitive user interface. Users will navigate seamlessly through historical currency data, accessing a range of visualization tools for a comprehensive understanding of currency performance.
-  Backend (Node.js and Express.js)
+
+ -  Backend (Node.js and Express.js)
 Node.js and Express.js form the core of our backend infrastructure, providing a robust foundation for data management and retrieval. This ensures efficient communication between the frontend and the database, allowing for real-time updates and seamless user interactions.
 
-Database (MongoDB)
+ -  Database (MongoDB)
 MongoDB, a NoSQL database, is employed for efficient storage and retrieval of historical currency data. Its flexibility enables us to handle diverse data types and support the dynamic nature of CurrencyTracker Insights.
 
--2. Python Data Processing
+-2. Python Data Processing<br>
 Python, with the Pandas library, serves as the engine for data processing. By analyzing currency data spanning a decade, we can extract valuable insights, identify trends, and generate meaningful visualizations that empower users to make informed decisions.
 
 -3. Graphical Visualization
