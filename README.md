@@ -9,10 +9,10 @@ CurrencyTracker Insights aims to offer a comprehensive view of currency fluctuat
 
 Key Objectives
 -1. MERN Stack Development
-Frontend (React.js)
+--Frontend (React.js).
 The frontend, developed using React.js, ensures a responsive and intuitive user interface. Users will navigate seamlessly through historical currency data, accessing a range of visualization tools for a comprehensive understanding of currency performance.
 
-Backend (Node.js and Express.js)
+--Backend (Node.js and Express.js)
 Node.js and Express.js form the core of our backend infrastructure, providing a robust foundation for data management and retrieval. This ensures efficient communication between the frontend and the database, allowing for real-time updates and seamless user interactions.
 
 Database (MongoDB)
