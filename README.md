@@ -18,10 +18,10 @@ Node.js and Express.js form the core of our backend infrastructure, providing a 
  -  Database (MongoDB)
 MongoDB, a NoSQL database, is employed for efficient storage and retrieval of historical currency data. Its flexibility enables us to handle diverse data types and support the dynamic nature of CurrencyTracker Insights.
 
--2. Python Data Processing<br>
+2. Python Data Processing<br>
 Python, with the Pandas library, serves as the engine for data processing. By analyzing currency data spanning a decade, we can extract valuable insights, identify trends, and generate meaningful visualizations that empower users to make informed decisions.
 
--3. Graphical Visualization
+3. Graphical Visualization
 The project's core feature is the graphical visualization of currency tracking. Utilizing interactive charts, graphs, and maps, users can explore and analyze the performance of various currencies against the US Dollar, gaining a deeper understanding of economic trends and factors influencing currency values.
 
 CurrencyTracker Insights aspires to be a valuable resource for financial analysts, economists, and anyone interested in gaining insights into the dynamic world of currency movements. Through the seamless integration of technology and data visualization, our project aims to provide a unique and insightful experience for users navigating the complex landscape of currency tracking.
