@@ -8,7 +8,7 @@ Project Vision
 CurrencyTracker Insights aims to offer a comprehensive view of currency fluctuations, providing users with valuable insights into historical trends and patterns. By integrating the MERN stack with Python's Pandas library, we seek to create an interactive and user-friendly platform that not only presents data visually but also enables users to analyze and interpret currency movements over the past decade.
 
 ## Tech Stack Information<br>
-<b> 1. MERN Stack Development <b>
+<b> 1. MERN Stack Development <b><br>
  -  Frontend (React.js).
   The frontend, developed using React.js, ensures a responsive and intuitive user interface. Users will navigate seamlessly through historical currency data, accessing a range of visualization tools for a comprehensive understanding of currency performance.
 
