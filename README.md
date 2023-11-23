@@ -13,4 +13,4 @@ This project involves processing and merging data from 12 CSV files. The entire 
 
 ### Step 3: Merging Data
 - Combined the processed data and generated a file named [merged_data.csv](https://github.com/manish0222/PICT-GROUP15-FX-Currency/blob/manish/merged_data.csv).
-- All codes and files can be also accessed [here](https://github.com/manish0222/PICT-GROUP15-FX-Currency/tree/manish).
+- All Data processing codes and files can be also accessed [here](https://github.com/manish0222/PICT-GROUP15-FX-Currency/tree/manish).
