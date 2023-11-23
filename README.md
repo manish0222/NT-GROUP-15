@@ -28,13 +28,7 @@ CurrencyTracker Insights aspires to be a valuable resource for financial analyst
 
 ## Steps
 
-### Step 1: Data Collection
-- Gathered 12 CSV files as input for the project.
-
-### Step 2: Data Processing
-- Executed data processing tasks in the provided Colab notebook.
-
-### Step 3: Merging Data
+### Data Processing
 - Combined the processed data and generated a file named [merged_data.csv](https://github.com/manish0222/PICT-GROUP15-FX-Currency/blob/manish/merged_data.csv).
 - All Data processing codes and files can be also accessed [here](https://github.com/manish0222/PICT-GROUP15-FX-Currency/tree/manish).
 
