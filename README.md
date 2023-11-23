@@ -29,7 +29,7 @@ CurrencyTracker Insights aspires to be a valuable resource for financial analyst
 ## Steps
 
 ### Data Processing
-- Combined the processed data and generated a file named [merged_data.csv](https://github.com/manish0222/PICT-GROUP15-FX-Currency/blob/manish/merged_data.csv).
+- Combined and processed the given data and generated a merged file named [merged_data.csv](https://github.com/manish0222/PICT-GROUP15-FX-Currency/blob/manish/merged_data.csv).
 - All Data processing codes and files can be also accessed [here](https://github.com/manish0222/PICT-GROUP15-FX-Currency/tree/manish).
 
 
