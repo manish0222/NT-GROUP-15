@@ -26,6 +26,7 @@ MongoDB, a NoSQL database, is employed for efficient storage and retrieval of hi
 Python, with the Pandas library, serves as the engine for data processing. By analyzing currency data spanning a decade, we can extract valuable insights, identify trends, and generate meaningful visualizations that empower users to make informed decisions.
 
 <strong> 3. Graphical Visualization</strong>
+<br>
 The project's core feature is the graphical visualization of currency tracking. Utilizing interactive charts, graphs, and maps, users can explore and analyze the performance of various currencies against the US Dollar, gaining a deeper understanding of economic trends and factors influencing currency values.
 
 CurrencyTracker Insights aspires to be a valuable resource for financial analysts, economists, and anyone interested in gaining insights into the dynamic world of currency movements. Through the seamless integration of technology and data visualization, our project aims to provide a unique and insightful experience for users navigating the complex landscape of currency tracking.
