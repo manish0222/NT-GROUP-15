@@ -38,6 +38,10 @@ CurrencyTracker Insights aspires to be a valuable resource for financial analyst
 - Combined and processed the given data and generated a merged file named [merged_data.csv](https://github.com/manish0222/PICT-GROUP15-FX-Currency/blob/manish/merged_data.csv).
 - All Data processing codes and files can be also accessed [here](https://github.com/manish0222/PICT-GROUP15-FX-Currency/tree/manish).
 
+### MERN Setup
+-  Link for setup is [here](https://sl.bing.net/cH51XHuJqyO)
+-  FrontEnd code Link [Frontend](https://github.com/manish0222/PICT-GROUP15-FX-Currency/tree/frontend).
+-  Backend code Link [Backend](https://github.com/manish0222/PICT-GROUP15-FX-Currency/tree/backend).
 
 ## Setup
 
@@ -57,3 +61,6 @@ cd backend
 npm install
 npm start
 ```
+
+### Youtube Link
+[Click Here](https://youtu.be/5Bm9OloA04k)
